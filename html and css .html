@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Conditions</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Container for weather card */
+        .weather-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            width: 300px;
+            font-size: 18px;
+        }
+
+        /* Location */
+        .location {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Weather condition */
+        .condition {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Temperature */
+        .temperature {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Weather icon */
+        .weather-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        /* Footer for additional information */
+        .footer {
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* Weather background colors */
+        .sunny {
+            background-color: #ffcc00;
+        }
+
+        .cloudy {
+            background-color: #b0c4de;
+        }
+
+        .rainy {
+            background-color: #5f9ea0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="weather-container sunny">
+        <div class="location">New York</div>
+        <div class="weather-icon">☀️</div>
+        <div class="condition">Sunny</div>
+        <div class="temperature">25°C</div>
+        <div class="footer">Humidity: 60% | Wind: 10 km/h</div>
+    </div>
+
+</body>
+</html>
+
+
+
